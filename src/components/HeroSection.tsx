@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Target, BarChart3 } from "lucide-react";
-
 const HeroSection = () => {
-  return (
-    <section className="min-h-screen bg-gradient-to-br from-background via-card to-muted flex items-center justify-center px-4">
+  return <section className="min-h-screen bg-gradient-to-br from-background via-card to-muted flex items-center justify-center px-4">
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8 flex justify-center">
           <div className="bg-primary/10 p-4 rounded-full border border-primary/20">
@@ -40,7 +38,7 @@ const HeroSection = () => {
               <Target className="h-8 w-8 text-profit" />
             </div>
             <h3 className="font-semibold text-lg mb-2">Alta Precisão</h3>
-            <p className="text-muted-foreground text-sm">Identifica tendências reais com precisão</p>
+            <p className="text-muted-foreground text-sm">Identifica tendências reais com 95% de precisão</p>
           </div>
           
           <div className="flex flex-col items-center">
@@ -52,8 +50,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
