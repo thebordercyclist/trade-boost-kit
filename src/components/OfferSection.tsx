@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle, Shield, Zap, Headphones, RefreshCw, Award } from "lucide-react";
-
 const OfferSection = () => {
-  return (
-    <section className="py-20 px-4 bg-background">
+  return <section className="py-20 px-4 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-profit bg-clip-text text-transparent">
@@ -54,7 +52,7 @@ const OfferSection = () => {
                   <Zap className="h-5 w-5 text-primary mr-3" />
                   <span className="text-foreground">Robô Trader</span>
                 </div>
-                <span className="text-muted-foreground line-through">R$ 97</span>
+                <span className="text-muted-foreground line-through">R$ 1297</span>
               </div>
               
               <div className="flex items-center justify-between p-4 bg-background rounded-lg">
@@ -62,7 +60,7 @@ const OfferSection = () => {
                   <Zap className="h-5 w-5 text-profit mr-3" />
                   <span className="text-foreground">Indicador MT4</span>
                 </div>
-                <span className="text-muted-foreground line-through">R$ 67</span>
+                <span className="text-muted-foreground line-through">R$ 497</span>
               </div>
               
               <div className="flex items-center justify-between p-4 bg-background rounded-lg">
@@ -70,7 +68,7 @@ const OfferSection = () => {
                   <Award className="h-5 w-5 text-accent mr-3" />
                   <span className="text-foreground">Plano Prop Firm</span>
                 </div>
-                <span className="text-muted-foreground line-through">R$ 127</span>
+                <span className="text-muted-foreground line-through">R$ 1897</span>
               </div>
               
               <div className="flex items-center justify-between p-4 bg-background rounded-lg">
@@ -78,15 +76,15 @@ const OfferSection = () => {
                   <Headphones className="h-5 w-5 text-warning mr-3" />
                   <span className="text-foreground">Suporte Premium</span>
                 </div>
-                <span className="text-muted-foreground line-through">R$ 47</span>
+                <span className="text-muted-foreground line-through">R$ 597</span>
               </div>
               
               <div className="border-t border-border pt-4">
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-semibold text-foreground">Total:</span>
                   <div className="text-right">
-                    <span className="text-lg text-muted-foreground line-through mr-2">R$ 338</span>
-                    <span className="text-3xl font-bold text-primary">R$ 197</span>
+                    <span className="text-lg text-muted-foreground line-through mr-2">R$ 4288</span>
+                    <span className="text-3xl font-bold text-primary">R$997 </span>
                   </div>
                 </div>
                 <p className="text-sm text-muted-foreground mt-1">ou 12x de R$ 19,70 no cartão</p>
@@ -128,8 +126,6 @@ const OfferSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default OfferSection;
