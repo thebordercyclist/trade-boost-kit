@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 220 13% 11%;
     --popover-foreground: 220 9% 97%;
 
-    --primary: 142 76% 36%;
+    --primary: 173 100% 23%;
     --primary-foreground: 220 9% 97%;
 
     --secondary: 220 13% 15%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 13% 15%;
     --muted-foreground: 220 9% 60%;
 
-    --accent: 207 90% 54%;
+    --accent: 351 89% 42%;
     --accent-foreground: 220 9% 97%;
 
     --destructive: 0 84% 60%;
@@ -34,21 +34,28 @@ All colors MUST be HSL.
 
     --border: 220 13% 18%;
     --input: 220 13% 18%;
-    --ring: 142 76% 36%;
+    --ring: 173 100% 23%;
 
     --radius: 0.75rem;
     
     /* Trading specific colors */
-    --success: 142 76% 36%;
+    --success: 173 100% 23%;
     --success-foreground: 220 9% 97%;
     --warning: 38 92% 50%;
     --warning-foreground: 220 9% 97%;
-    --profit: 142 71% 45%;
-    --loss: 0 84% 60%;
+    --profit: 173 100% 23%;
+    --loss: 351 89% 42%;
+    
+    /* Additional color variations */
+    --primary-light: 173 90% 30%;
+    --primary-dark: 173 100% 18%;
+    --accent-light: 351 80% 55%;
+    --accent-dark: 351 89% 35%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 71% 45%));
-    --gradient-accent: linear-gradient(135deg, hsl(207 90% 54%), hsl(207 90% 61%));
+    --gradient-primary: linear-gradient(135deg, hsl(173 100% 23%), hsl(173 90% 30%));
+    --gradient-accent: linear-gradient(135deg, hsl(351 89% 42%), hsl(351 80% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(173 100% 23%), hsl(351 89% 42%));
     --gradient-dark: linear-gradient(135deg, hsl(220 13% 9%), hsl(220 13% 11%));
 
     --sidebar-background: 0 0% 98%;
