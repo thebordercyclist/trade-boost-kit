@@ -1,21 +1,25 @@
-import HeroSection from "@/components/HeroSection";
-import ProblemSection from "@/components/ProblemSection";
-import ProductSection from "@/components/ProductSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import OfferSection from "@/components/OfferSection";
-import FAQSection from "@/components/FAQSection";
-import FinalCTASection from "@/components/FinalCTASection";
+import VenomHeroSection from "@/components/VenomHeroSection";
+import VenomProblemSection from "@/components/VenomProblemSection";
+import VenomProductSection from "@/components/VenomProductSection";
+import VenomBeforeAfterSection from "@/components/VenomBeforeAfterSection";
+import VenomTestimonialsSection from "@/components/VenomTestimonialsSection";
+import VenomGuaranteeSection from "@/components/VenomGuaranteeSection";
+import VenomFAQSection from "@/components/VenomFAQSection";
+import VenomFinalCTASection from "@/components/VenomFinalCTASection";
+import VenomFooter from "@/components/VenomFooter";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <HeroSection />
-      <ProblemSection />
-      <ProductSection />
-      <TestimonialsSection />
-      <OfferSection />
-      <FAQSection />
-      <FinalCTASection />
+      <VenomHeroSection />
+      <VenomProblemSection />
+      <VenomProductSection />
+      <VenomBeforeAfterSection />
+      <VenomTestimonialsSection />
+      <VenomGuaranteeSection />
+      <VenomFAQSection />
+      <VenomFinalCTASection />
+      <VenomFooter />
     </div>
   );
 };

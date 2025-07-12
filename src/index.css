@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 220 13% 11%;
     --popover-foreground: 220 9% 97%;
 
-    --primary: 173 100% 23%;
+    --primary: 173 100% 20%;
     --primary-foreground: 220 9% 97%;
 
     --secondary: 220 13% 15%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 13% 15%;
     --muted-foreground: 220 9% 60%;
 
-    --accent: 351 89% 42%;
+    --accent: 347 95% 42%;
     --accent-foreground: 220 9% 97%;
 
     --destructive: 0 84% 60%;
@@ -47,15 +47,15 @@ All colors MUST be HSL.
     --loss: 351 89% 42%;
     
     /* Additional color variations */
-    --primary-light: 173 90% 30%;
-    --primary-dark: 173 100% 18%;
-    --accent-light: 351 80% 55%;
-    --accent-dark: 351 89% 35%;
+    --primary-light: 173 90% 25%;
+    --primary-dark: 173 100% 15%;
+    --accent-light: 347 85% 50%;
+    --accent-dark: 347 95% 35%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(173 100% 23%), hsl(173 90% 30%));
-    --gradient-accent: linear-gradient(135deg, hsl(351 89% 42%), hsl(351 80% 50%));
-    --gradient-hero: linear-gradient(135deg, hsl(173 100% 23%), hsl(351 89% 42%));
+    --gradient-primary: linear-gradient(135deg, hsl(173 100% 20%), hsl(173 90% 25%));
+    --gradient-accent: linear-gradient(135deg, hsl(347 95% 42%), hsl(347 85% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(173 100% 20%), hsl(347 95% 42%));
     --gradient-dark: linear-gradient(135deg, hsl(220 13% 9%), hsl(220 13% 11%));
 
     --sidebar-background: 0 0% 98%;
